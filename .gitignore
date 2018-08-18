@@ -1,0 +1,11 @@
+storage
+blob-store
+compile-cache
+.npm
+.node-gyp
+recovery
+
+# Packages, but reproducible with `apm install --packages-file packages.txt`
+.apm
+packages
+

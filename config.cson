@@ -1,0 +1,142 @@
+"*":
+  "apio-ide":
+    customPATH: "$HOME/.local/bin"
+  "atom-beautify":
+    css:
+      selector_separator_newline: true
+  "atom-ide-ui":
+    "atom-ide-code-format":
+      formatOnType: false
+    "atom-ide-diagnostics-ui":
+      showDiagnosticTraces: true
+      showDirectoryColumn: true
+    use:
+      hyperclick: "never"
+  "atom-ternjs":
+    guess: false
+  "autocomplete-modules":
+    babelPluginModuleResolver: true
+  "autocomplete-plus":
+    includeCompletionsFromAllBuffers: false
+  core:
+    audioBeep: false
+    customFileTypes:
+      "source.ini": [
+        ".buckconfig"
+        ".hgrc"
+        ".flowconfig"
+      ]
+      "source.json": [
+        ".arcconfig"
+        "BUCK.autodeps"
+      ]
+      "source.python": [
+        "BUCK"
+      ]
+    destroyEmptyPanes: false
+    disabledPackages: [
+      "language-text"
+      "markdown-preview-katex"
+      "markdown-preview"
+      "spell-check"
+      "whitespace"
+      "foldername-tabs"
+      "linter"
+      "elmjutsu"
+      "linter-elm-make"
+    ]
+    excludeVcsIgnoredPaths: false
+    followSymlinks: true
+    restorePreviousWindowsOnStart: "no"
+    telemetryConsent: "no"
+  editor:
+    invisibles: {}
+    scrollPastEnd: true
+    showIndentGuide: true
+    showInvisibles: true
+    softWrapAtPreferredLineLength: true
+  elmjutsu:
+    autocompleteFuzzyFilteringEnabled: true
+    cacheDirectory: "/tmp/elmjutsu18517crX05mdCFwAO"
+    hyperclickEnabled: false
+    showTypesInTooltip: true
+    typeAwareAutocompleteEnabled: true
+  "exception-reporting":
+    userId: "889b438b-2d4f-2487-a879-840aa6a5dd39"
+  "ide-purescript":
+    addNpmPath: true
+  "language-babel":
+    allowLocalOverride: true
+    autoIndentJSX: true
+  "language-elm":
+    autocompleteEnabled: false
+  linter: {}
+  "linter-elm-make":
+    showInferredTypeAnnotations: true
+    useDatatips: true
+    workDirectory: "."
+  "linter-flake8":
+    ignoreErrorCodes: [
+      "E402"
+    ]
+  "linter-mypy":
+    disallowUntypedCalls: false
+    warnIncompleteStub: false
+  "linter-ui-default": {}
+  "markdown-preview": {}
+  "markdown-preview-katex": {}
+  "markdown-preview-plus":
+    mathConfig:
+      enableLatexRenderingByDefault: true
+  minimap:
+    plugins:
+      bookmarks: true
+      bookmarksDecorationsZIndex: 0
+      cursorline: true
+      cursorlineDecorationsZIndex: 0
+      linter: true
+      linterDecorationsZIndex: 0
+  nuclide:
+    "nuclide-flow":
+      warnOnNotInstalled: false
+  "prettier-atom":
+    formatOnSaveOptions:
+      enabled: true
+      isDisabledIfNotInPackageJson: true
+    useEslint: true
+  "tool-bar":
+    position: "Left"
+    visible: false
+  welcome:
+    showOnStartup: false
+  whitespace:
+    ensureSingleTrailingNewline: false
+".elm.source":
+  editor:
+    autoIndentOnPaste: true
+    tabLength: 4
+    tabType: "soft"
+".ini.source":
+  editor:
+    preferredLineLength: 80
+    softWrap: true
+    softWrapAtPreferredLineLength: true
+".js.jsx.react.source":
+  editor:
+    preferredLineLength: 80
+    softWrap: true
+    softWrapAtPreferredLineLength: true
+".js.jsx.source":
+  editor:
+    softWrap: true
+    softWrapAtPreferredLineLength: true
+".js.source.subtlegradient":
+  editor:
+    softWrap: true
+    softWrapAtPreferredLineLength: true
+".psci.purescript.source":
+  editor:
+    autoIndentOnPaste: true
+".purescript.source":
+  editor:
+    softWrapAtPreferredLineLength: true

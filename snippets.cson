@@ -1,0 +1,35 @@
+'.source.python':
+  'ipdb':
+    'prefix': 'ipdb'
+    'body': 'import ipdb; ipdb.set_trace()'
+
+'.source.js.jsx':
+  'importreact':
+    'prefix': 'import react'
+    'body': """
+import React from 'react';
+import PropTypes from 'prop-types';
+
+"""
+
+  'React class module':
+    'prefix': 'reactclass'
+    'body': """
+import React from 'react';
+import PropTypes from 'prop-types';
+
+const $1 = class extends React.Component {
+  $2
+};
+
+$1.propTypes = {
+  
+};
+
+$1.defaultProps = {
+  
+};
+
+export default $1;
+
+"""
