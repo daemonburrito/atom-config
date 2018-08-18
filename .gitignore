@@ -4,6 +4,7 @@ compile-cache
 .npm
 .node-gyp
 recovery
+nohup.out
 
 # Packages, but reproducible with `apm install --packages-file packages.txt`
 .apm
